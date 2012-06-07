@@ -2,7 +2,11 @@
 
 A pseudo random quote of the day from wikiquotes.
 
+# Inspiration
+
 Inspired by the [wikiquote gem](http://hemanth.github.com/wikiquote-gem/): I got sick of having to wait a whole day to get a new quote, so this gem will randomly pick one from the archives.
+
+Thanks to [Mark Ryall](https://github.com/markryall/) for coming up with the name (originally called random-wikiquote) and also for help with some code.
 
 ## Installation
 
