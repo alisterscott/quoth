@@ -4,7 +4,7 @@ require 'open-uri'
 require 'nokogiri'
 
 # The main random wiki driver
-module RandomWikiQuote
+module Quoth
   FILE_NAME = File.dirname(__FILE__)+'/data/data.html'
   URL = 'http://en.wikiquote.org/wiki/Wikiquote:Quote_of_the_Day'
 
@@ -27,6 +27,7 @@ module RandomWikiQuote
         file.write(uri.read)
       end
     end
+    "Successfully refreshed quotes from #{URL}."
   end
 
   private

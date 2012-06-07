@@ -1,4 +1,4 @@
 #!/usr/bin/env ruby
 $LOAD_PATH.unshift(File.join(File.dirname(__FILE__), '..', 'lib'))
-require 'random-wikiquote'
-puts RandomWikiQuote.get()
+require 'quoth'
+puts Quoth.get
